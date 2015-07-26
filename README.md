@@ -6,9 +6,17 @@ and restore it when you start again.
 
 State is stored in lastsess.qdb
 
-The code is just three lines, so I'll include it directly below:
+The code is just three lines. Read it!
+
+Usage
+-----
+
+Add this to ~/q/q.q:
 
 ```
+	\l /path/to/persist-state.q
+```
+
 Note on style
 -------------
 
